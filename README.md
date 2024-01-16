@@ -1,1 +1,1 @@
-# ocho_reinas_JS
+Programa del problema de las ocho reinas.
