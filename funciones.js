@@ -89,8 +89,9 @@ function colocarReina(celda) {
 
 
 function solucion1(valor) {
-  alert(valor);
+
   var celdas = document.getElementById("tabla");
+
   switch (valor) {
     case "1":
       celdas.rows[0].cells[3].style = "background-image: url(./img/reina.png); background-size:cover;";
@@ -116,54 +117,52 @@ function solucion1(valor) {
 
     case "3":
       celdas.rows[0].cells[3].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[1].cells[6].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[2].cells[2].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[3].cells[7].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[4].cells[1].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[5].cells[4].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[6].cells[0].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[7].cells[5].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[1].cells[1].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[2].cells[6].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[3].cells[2].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[4].cells[5].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[5].cells[7].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[6].cells[4].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[7].cells[0].style = "background-image: url(./img/reina.png); background-size:cover;";
       break;
 
-      case "3":
+    case "4":
       celdas.rows[0].cells[3].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[1].cells[6].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[2].cells[2].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[3].cells[7].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[4].cells[1].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[5].cells[4].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[6].cells[0].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[7].cells[5].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[1].cells[5].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[2].cells[7].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[3].cells[2].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[4].cells[0].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[5].cells[6].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[6].cells[4].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[7].cells[1].style = "background-image: url(./img/reina.png); background-size:cover;";
       break;
 
-      case "3":
-      celdas.rows[0].cells[3].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[1].cells[6].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[2].cells[2].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[3].cells[7].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[4].cells[1].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[5].cells[4].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[6].cells[0].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[7].cells[5].style = "background-image: url(./img/reina.png); background-size:cover;";
+    case "5":
+      celdas.rows[0].cells[2].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[1].cells[5].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[2].cells[7].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[3].cells[0].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[4].cells[3].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[5].cells[6].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[6].cells[4].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[7].cells[1].style = "background-image: url(./img/reina.png); background-size:cover;";
       break;
 
-      case "3":
-      celdas.rows[0].cells[3].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[1].cells[6].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[2].cells[2].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[3].cells[7].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[4].cells[1].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[5].cells[4].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[6].cells[0].style = "background-image: url(./img/reina.png); background-size:cover;";
-      celdas.rows[7].cells[5].style = "background-image: url(./img/reina.png); background-size:cover;";
+    case "6":
+      celdas.rows[0].cells[4].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[1].cells[2].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[2].cells[7].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[3].cells[3].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[4].cells[6].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[5].cells[0].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[6].cells[5].style = "background-image: url(./img/reina.png); background-size:cover;";
+      celdas.rows[7].cells[1].style = "background-image: url(./img/reina.png); background-size:cover;";
       break;
-
 
     default:
       alert("Esa solucion no te la ando manejando");
       break;
   }
-
-
 }
+
 
